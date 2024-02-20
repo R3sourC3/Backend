@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/twitter', (req, res) => {
-    res.send('This is my twitter handle')
+    res.send('This is my cool twitter handle')
   })
 
 app.get('/login', (req,res) => {
